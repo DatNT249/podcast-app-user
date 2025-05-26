@@ -1,0 +1,42 @@
+export const SCREENS_KEY = {
+	HOME: {
+		INDEX: 'INDEX_HOME' as const,
+		CHAPTER: 'CHAPTER_HOME' as const,
+		EPISODE: 'EPISODE_HOME' as const,
+		CHANGE_PROFILE: 'CHANGE_PROFILE' as const,
+		FAVORITE: 'FAVORITE' as const,
+		CHANGE_PASSWORD: 'CHANGE_PASSWORD' as const,
+		GENRE_DETAIL: 'GENRE_DETAIL' as const,
+		SUBSCRIPTION: 'SUBSCRIPTION' as const,
+		REGISTER_SUBSCRIPTION: 'REGISTER_SUBSCRIPTION' as const,
+	},
+	AUTH: {
+		BEFORE_AUTH: 'BEFORE_AUTH' as const,
+		LOGIN: 'LOGIN' as const,
+		REGISTER: 'REGISTER' as const,
+	},
+	PLAYER: {
+		PLAYER: 'PLAYER' as const,
+	},
+	ENTRY: 'ENTRY' as const,
+	REGISTER_INFO: 'REGISTER_INFO' as const,
+	FILTER: 'FILTER' as const,
+	SEARCH: {
+		INDEX: 'INDEX_SEARCH' as const,
+	},
+	MAIN_DRAWER: {
+		INDEX: 'INDEX_MAIN_DRAWER' as const,
+	},
+	SUBSCRIPTION: {
+		INDEX: 'INDEX_SUBSCRIPTION' as const,
+		REGISTER: 'REGISTER_SUBSCRIPTION' as const,
+		HISTORY: 'HISTORY_SUBSCRIPTION' as const,
+		STOP: 'STOP_SUBSCRIPTION' as const,
+	},
+}
+
+export const TABS_KEY = {
+	TAB_HOME: 'TAB_HOME' as const,
+	TAB_SEARCH: 'TAB_SEARCH' as const,
+	TAB_SUBSCRIPTION: 'TAB_SUBSCRIPTION' as const,
+}

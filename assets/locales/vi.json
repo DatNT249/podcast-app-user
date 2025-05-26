@@ -1,0 +1,140 @@
+{
+	"common": {
+		"remove_favorite_success": "Đã xóa khỏi yêu thích",
+		"add_favorite_success": "Đã thêm vào yêu thích",
+		"add_favorite_error": "Thêm vào yêu thích thất bại",
+		"remove_favorite_error": "Xóa khỏi yêu thích thất bại",
+		"episode_not_found": "Không tìm thấy tập sách",
+		"chapter_not_found": "Không tìm thấy chương sách",
+		"close": "Đóng",
+		"no_data": "Không có dữ liệu",
+		"select_option": "Chọn một tùy chọn",
+		"select_date": "Chọn ngày",
+		"confirm": "Xác nhận",
+		"cancel": "Hủy",
+		"choose_date": "Chọn một ngày", 
+		"date_placeholder": "DD/MM/YYYY",
+		"today": "Hôm nay",
+		"selected_date": "Ngày đã chọn",
+		"episodes": "tập"
+	},
+	"drawer": {
+		"favorites": "Yêu thích",
+		"information": "Xem thông tin",
+		"logout": "Đăng xuất",
+		"change_password": "Đổi mật khẩu",
+		"change_language": "Đổi ngôn ngữ",
+		"menu": "Menu"
+	},
+	"tabs": {
+		"home": "Sách",
+		"search": "Tìm kiếm",
+		"premium": "Premium"
+	},
+	"information": {
+		"name": "Tên",
+		"email": "Email",
+		"phone": "Số điện thoại",
+		"address": "Địa chỉ",
+		"update": "Cập nhật",
+		"cancel": "Hủy",
+		"update_success": "Cập nhật thành công",
+		"update_error": "Cập nhật thất bại",
+		"update_info": "Cập nhật thông tin",
+		"birthday": "Ngày sinh",
+		"save": "Lưu",
+		"gender": "Giới tính",
+		"title": "Thông tin cá nhân"
+	},
+	"home": {
+		"welcome": "Chào mừng đến với AI Podcast",
+		"new_book": "Sách mới phát hành",
+		"list_episode": "Danh sách tập",
+		"top_10": "Top 10 sách được yêu thích nhất",
+		"genre": "Thể loại sách"
+	},
+	"change_password": {
+		"current_password": "Mật khẩu hiện tại",
+		"new_password": "Mật khẩu mới",
+		"update_password": "Cập nhật mật khẩu",
+		"update_success": "Cập nhật thành công",
+		"update_error": "Cập nhật thất bại",
+		"title": "Đổi mật khẩu",
+		"error": "Đổi mật khẩu thất bại",
+		"success": "Đổi mật khẩu thành công"
+	},
+	"chapter": {
+		"not_found": "Không tìm thấy chương",
+		"all_episodes": "Tất cả tập"
+	},
+	"player": {
+		"info_episode": "Thông tin tập",
+		"info_book": "Thông tin sách"
+	},
+	"timer": {
+		"sleep_timer": "Đặt thời gian",
+		"minute": "phút",
+		"hour": "giờ",
+		"second": "giây",
+		"end_of_episode": "Tắt sau khi kết thúc tập",
+		"turn_off": "Tắt sau"
+	},
+	"search": {
+		"title": "Tìm kiếm",
+		"placeholder": "Nhập từ khóa tìm kiếm",
+		"not_found": "Không tìm thấy kết quả",
+		"empty": "Vui lòng nhập từ khóa",
+		"searching": "Đang tìm kiếm..."
+	},
+	"sign_in": {
+		"title": "Đăng nhập",
+		"email": "Email",
+		"password": "Mật khẩu",
+		"not_account": "Bạn chưa có tài khoản?",
+		"sign_up": "Đăng ký ngay",
+		"error": "Đăng nhập thất bại"
+	},
+	"sign_up": {
+		"title": "Đăng ký",
+		"name": "Tên",
+		"email": "Email",
+		"password": "Mật khẩu",
+		"have_account": "Đã có tài khoản?",
+		"sign_in": "Đăng nhập ngay",
+		"sign_up_error": "Đăng ký thất bại",
+		"sign_up_success": "Đăng ký thành công",
+		"please_sign_in": "Vui lòng đăng nhập để tiếp tục",
+		"errir": "Đăng ký thất bại"
+	},
+	"before_auth": {
+		"sign_up": "Đăng ký miễn phí",
+		"slogan": "Thư viện sách hay dành cho bạn"
+	},
+	"favorite": {
+		"title": "Những tập sách yêu thích",
+		"empty": "Chưa có sách yêu thích",
+		"remove": "Xóa khỏi yêu thích",
+		"episode": "tập sách"
+	},
+	"premium": {
+		"title": "Đăng ký Premium Member của AI Podcast mới có thể nghe được sách này!"
+	},
+	"ai_prompt": {
+		"title": "AI đặt câu hỏi",
+		"subtitle": "Hỏi trợ lý AI",
+		"processing": "Đang xử lý...",
+		"no_data": "Không có dữ liệu",
+		"your_question": "Câu hỏi của bạn",
+		"placeholder": "Điền thông tin cần tìm",
+		"submit": "Gửi câu hỏi"
+	},
+	"message": {
+		"field_required": "Trường này là bắt buộc",
+		"enter_password": "Vui lòng nhập mật khẩu",
+		"enter_name": "Vui lòng nhập tên",
+		"enter_email": "Vui lòng nhập email",
+		"email_invalid": "Email không hợp lệ",
+		"enter_address": "Vui lòng nhập địa chỉ",
+		"enter_phone": "Vui lòng nhập số điện thoại"
+	}
+}

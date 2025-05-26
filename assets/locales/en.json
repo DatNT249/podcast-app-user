@@ -1,0 +1,140 @@
+{
+	"common": {
+		"remove_favorite_success": "Removed from favorites",
+		"add_favorite_success": "Added to favorites",
+		"add_favorite_error": "Add to favorites failed",
+		"remove_favorite_error": "Remove from favorites failed",
+		"episode_not_found": "Episode not found",
+		"chapter_not_found": "Chapter not found",
+		"close": "Close",
+		"no_data": "No data",
+		"select_option": "Select an option",
+		"select_date": "Select Date",
+		"confirm": "Confirm",
+		"cancel": "Cancel",
+		"choose_date": "Choose a date",
+		"date_placeholder": "DD/MM/YYYY",
+		"today": "Today",
+		"selected_date": "Selected date",
+		"episodes": "episodes"
+	},
+	"drawer": {
+		"favorites": "Favorites",
+		"information": "See information",
+		"logout": "Logout",
+		"change_password": "Change password",
+		"change_language": "Change language",
+		"menu": "Menu"
+	},
+	"tabs": {
+		"home": "Book",
+		"search": "Search",
+		"premium": "Premium"
+	},
+	"information": {
+		"name": "Name",
+		"email": "Email",
+		"phone": "Phone",
+		"address": "Address",
+		"update": "Update",
+		"cancel": "Cancel",
+		"update_success": "Update successfully",
+		"update_error": "Update failed",
+		"update_info": "Update information",
+		"birthday": "Birthday",
+		"save": "Save",
+		"gender": "Gender",
+		"title": "Personal Information"
+	},
+	"home": {
+		"welcome": "Welcome to the Vua Sach",
+		"new_book": "New book",
+		"list_episode": "List episode",
+		"top_10": "Top 10 most favorite episodes",
+		"genre": "Book genre"
+	},
+	"change_password": {
+		"current_password": "Current password",
+		"new_password": "New password",
+		"update_password": "Update password",
+		"update_success": "Update successfully",
+		"update_error": "Update failed",
+		"title": "Change password",
+		"error": "Change password failed",
+		"success": "Change password successfully"
+	},
+	"chapter": {
+		"not_found": "Chapter not found",
+		"all_episodes": "All Episodes"
+	},
+	"player": {
+		"info_episode": "Episode information",
+		"info_book": "Book information"
+	},
+	"timer": {
+		"sleep_timer": "Set time",
+		"minute": "minute",
+		"hour": "hour",
+		"second": "second",
+		"end_of_episode": "Turn off after the episode ends",
+		"turn_off": "Turn off after"
+	},
+	"search": {
+		"title": "Search",
+		"placeholder": "Enter search keyword",
+		"not_found": "No results found",
+		"empty": "Please enter a keyword",
+		"searching": "Searching..."
+	},
+	"sign_in": {
+		"title": "Sign in",
+		"email": "Email",
+		"password": "Password",
+		"not_account": "Don't have an account?",
+		"sign_up": "Sign up now",
+		"error": "Sign in failed"
+	},
+	"sign_up": {
+		"title": "Sign up",
+		"name": "Name",
+		"email": "Email",
+		"password": "Password",
+		"have_account": "Already have an account?",
+		"sign_in": "Sign in now",
+		"sign_up_error": "Sign up failed",
+		"sign_up_success": "Sign up successfully",
+		"please_sign_in": "Please sign in to continue",
+		"errir": "Sign up failed"
+	},
+	"before_auth": {
+		"sign_up": "Sign up free",
+		"slogan": "Good book library for you"
+	},
+	"favorite": {
+		"title": "Favorite episodes",
+		"empty": "No favorites",
+		"remove": "Remove from favorites",
+		"episode": "episode"
+	},
+	"premium": {
+		"title": "Register as a Premium Member of Vua Sach to listen to this book!"
+	},
+	"ai_prompt": {
+		"title": "AI Question",
+		"subtitle": "Ask AI Assistant",
+		"processing": "Processing...",
+		"no_data": "No data available",
+		"your_question": "Your question",
+		"placeholder": "Enter your question here",
+		"submit": "Send question"
+	},
+	"message": {
+		"field_required": "This field is required",
+		"enter_password": "Please enter your password",
+		"email_invalid": "Email is invalid",
+		"enter_email": "Please enter your email",
+		"enter_name": "Please enter your name",
+		"enter_address": "Please enter your address",
+		"enter_phone": "Please enter your phone number"
+	}
+}
