@@ -38,7 +38,6 @@ const App = () => {
 
 	useSetRatePlayer(isInitialized)
 
-	useCheckPremium(isInitialized)
 
 	useEffect(() => {
 		bootstrap()
