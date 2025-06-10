@@ -57,7 +57,7 @@ export const getCategories = async () => {
 export const getDetailCategory = async (id: string) => {
 	try {
 		const response = await request.get<CategoryDetailResponseType>(`/categories/${id}`)
-
+		console.log('API /categories/:id response', response.data.data)
 		return response.data.data
 	} catch (error) {
 		console.log('API /categories/:id error', error)

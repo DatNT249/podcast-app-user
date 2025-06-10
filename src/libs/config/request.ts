@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import Axios, { AxiosError, AxiosResponse, InternalAxiosRequestConfig } from 'axios'
 import { useEffect } from 'react'
 
-const baseURL = 'http://192.168.40.103:8001/api'
+const baseURL = 'http://192.168.1.19:8001/api'
 
 export const request = Axios.create({
 	baseURL,

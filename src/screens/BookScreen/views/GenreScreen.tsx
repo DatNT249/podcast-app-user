@@ -5,13 +5,13 @@ import { unknownTrackImageUri } from '@/libs/constants/images'
 import { generateMediaUrl } from '@/libs/helpers/generateMediaUrl'
 import { NavigationProp } from '@/navigation'
 import { HomeStackParams } from '@/navigation/BottomTabs/TabHome'
-import { CategoryType } from '@/types/episode'
 import { RouteProp, useNavigation, useRoute } from '@react-navigation/native'
 import { FlashList } from '@shopify/flash-list'
 import { useTranslation } from 'react-i18next'
 import { Dimensions, Pressable, StyleSheet, Text, View } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import { useGetDetailCategory } from '../hooks/useGetDetailCategory'
+import { BookType } from '../types'
 
 type RouteType = RouteProp<HomeStackParams, 'GENRE_DETAIL'>
 
@@ -29,9 +29,9 @@ export const GenreScreen = () => {
 		})
 	}
 
-	const formatData = (data: CategoryType[] | undefined, numColumns: number): CategoryType[] => {
+	const formatData = (data: BookType[] | undefined, numColumns: number): BookType[] => {
 		if (!data) return []
-		const formattedData = data.map((item) => ({ ...item, key: item._id }))
+		const formattedData = data.map((item) => ({ ...item, key: item?._id }))
 		const numberOfFullRows = Math.floor(formattedData.length / numColumns)
 
 		let numberOfElementsLastRow = formattedData.length - numberOfFullRows * numColumns
@@ -41,6 +41,9 @@ export const GenreScreen = () => {
 				key: `blank-${numberOfElementsLastRow}`,
 				name: '',
 				url: '',
+				author: '',
+				description: '',
+				isPremium: false,
 			})
 			numberOfElementsLastRow++
 		}
@@ -72,7 +75,7 @@ export const GenreScreen = () => {
 						return (
 							<Pressable
 								style={{ position: 'relative', opacity: 0.8, marginBottom: 18 }}
-								onPress={() => redirectToChapter(item._id)}
+								onPress={() => redirectToChapter(item?._id)}
 							>
 								<FastImage
 									source={{
@@ -90,7 +93,7 @@ export const GenreScreen = () => {
 						)
 					}}
 					numColumns={numColumns}
-					keyExtractor={(item) => item._id}
+					keyExtractor={(item) => item?._id}
 					estimatedItemSize={100}
 					ListEmptyComponent={
 						<Text style={{ color: colors.white, textAlign: 'center', marginTop: 20 }}>

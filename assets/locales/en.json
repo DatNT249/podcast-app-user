@@ -65,7 +65,8 @@
 	},
 	"chapter": {
 		"not_found": "Chapter not found",
-		"all_episodes": "All Episodes"
+		"all_episodes": "All Episodes",
+		"chapters": "Chapters"
 	},
 	"player": {
 		"info_episode": "Episode information",

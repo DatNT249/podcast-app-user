@@ -106,11 +106,11 @@ export const BookScreen = () => {
 					data={genres}
 					renderItem={({ item }) => (
 						<Card
-							_id={item._id}
-							onPress={() => navigateToGenreScreen(item._id)}
+							_id={item.id}
+							onPress={() => navigateToGenreScreen(item.id)}
 							title={item.name}
 							image={item.url}
-							key={item._id}
+							key={item.id}
 						/>
 					)}
 					title={t('home.genre')}

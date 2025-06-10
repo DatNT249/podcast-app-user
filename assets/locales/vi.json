@@ -65,7 +65,8 @@
 	},
 	"chapter": {
 		"not_found": "Không tìm thấy chương",
-		"all_episodes": "Tất cả tập"
+		"all_episodes": "Tất cả tập",
+		"chapters": "Chương"
 	},
 	"player": {
 		"info_episode": "Thông tin tập",

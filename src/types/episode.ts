@@ -46,7 +46,7 @@ export type EpisodesTop10ResponseType = {
 }
 
 export type CategoryType = {
-	_id: string
+	id: string
 	name: string
 	url: string
 }
