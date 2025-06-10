@@ -36,7 +36,7 @@ export const BottomSheet = <T,>({
 			handleStyle={styles.handleModal}
 			backdropComponent={renderBackdrop}
 		>
-			<BottomSheetView style={{ flex: 1, backgroundColor: colors.modal }}>
+			<BottomSheetView style={{ flex: 1, backgroundColor: colors.backgroundMain }}>
 				<BottomSheetFlatList
 					data={data}
 					ListHeaderComponent={
@@ -63,7 +63,7 @@ const renderBackdrop = (props: BottomSheetBackdropProps) => (
 
 const styles = StyleSheet.create({
 	handleModal: {
-		backgroundColor: colors.modal,
+		backgroundColor: colors.backgroundMain,
 		borderTopEndRadius: 12,
 		borderTopStartRadius: 12,
 		borderBottomWidth: 0,
